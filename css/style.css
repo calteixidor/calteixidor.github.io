@@ -865,23 +865,6 @@ form label {
   text-decoration: none;
 }
 
-#gtco-course {
-  background: #efefef;
-}
-#gtco-course .course-slide {
-  text-align: center;
-}
-#gtco-course .course-slide figure img {
-  width: 730px;
-  text-align: center;
-}
-
-@media screen and (max-width: 992px) {
-  #gtco-course .course-slide blockquote {
-    width: 100%;
-  }
-}
-
 
 .gtco-tabs .gtco-tab-nav {
   clear: both;
