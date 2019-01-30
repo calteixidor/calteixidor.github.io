@@ -987,68 +987,57 @@ p:not(:last-child) {
   margin: 0 0 20px;
 }
 
-main {
-  padding: 40px;
-  border: 1px solid rgba(0,0,0,.2);
-  background: #fff;
-  box-shadow: 0 1px 3px rgba(0,0,0,.1);
-}
 
-section {
-  display: none;
-  padding: 20px 0 0;
-  border-top: 1px solid #abc;
-}
+/*Menu course*/
+  
+   p {margin: 0 0 20px; line-height: 1.5;}
+ 
+   .main {margin: 0 auto; min-width: 320px; max-width: 100%;text-align:center;}
+   .content {background: #fff; color: #373737;text-align:left;}
+   .content > div {display: none; padding: 20px 25px 5px;}
+ 
+   input {
+     display: none;
+     
+   }
+   
+   label {
+     display: inline-block;
+     padding: 15px 25px;
+     font-weight: 600;
+     text-align: center;
+     border-left: 1px solid green;
+     border-right: 1px solid green;
+     border-top: 1px solid green;
+     border-top-left-radius: 3px;
+     border-top-right-radius: 3px;
+     
+   }
+   
+   label:hover {
+     color: #fff; 
+     cursor: pointer;
+     
+   }
+   
+   input:checked + label {background: #381efc; color: #fff;}
+ 
+   #tab1:checked ~ .content #content1,
+   #tab2:checked ~ .content #content2,
+   #tab3:checked ~ .content #content3,
+   #tab4:checked ~ .content #content4 {
+     display: block;
+   }
+ 
+   @media screen and (max-width: 400px) {
+     label {
+       padding: 15px 10px;
+       
+     }
+     
+   }
 
-input {
-  display: none;
-}
 
-label {
-  display: inline-block;
-  margin: 0 0 -1px;
-  padding: 15px 25px;
-  font-weight: 600;
-  text-align: center;
-  color: #abc;
-  border: 2px solid transparent;
-}
-
-label:before {
-  font-family: fontawesome;
-  font-weight: normal;
-  margin-right: 10px;
-}
-
-
-label:hover {
-  color: #789;
-  cursor: pointer;
-}
-
-input:checked + label {
-  color: #0af;
-  border: 1px solid #abc;
-  border-top: 2px solid #0af;
-  border-bottom: 1px solid #fff;
-}
-
-#tab1:checked ~ #content1,
-#tab2:checked ~ #content2,
-#tab3:checked ~ #content3,
-#tab4:checked ~ #content4 {
-  display: block;
-}
-
-@media screen and (max-width: 800px) {
-  label {
-    font-size: 0;
-  }
-  label:before {
-    margin: 0;
-    font-size: 18px;
-  }
-}
 
 @media screen and (max-width: 500px) {
   label {
