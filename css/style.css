@@ -433,7 +433,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 30px;
 }
 .gtco-display img {
-  width: 400px;
+  width: 360px;
   
 }
 .gtco-display .role {
@@ -883,7 +883,7 @@ form label {
   margin: 0;
   padding: 0;
   width: 25%;
-  text-align: center;
+  text-align: left;
   list-style: none;
   display: -moz-inline-stack;
   display: inline-block;
@@ -998,7 +998,7 @@ p:not(:last-child) {
    }
    
    label:hover {
-     color: #fff; 
+     color: #231bfc; 
      cursor: pointer;
      
    }
