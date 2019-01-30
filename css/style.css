@@ -1020,10 +1020,6 @@ label:before {
   margin-right: 10px;
 }
 
-label[for*='1']:before { content: '\f18c'; }
-label[for*='2']:before { content: '\f085'; }
-label[for*='3']:before { content: '\f080'; }
-label[for*='4']:before { content: '\f023'; }
 
 label:hover {
   color: #789;
