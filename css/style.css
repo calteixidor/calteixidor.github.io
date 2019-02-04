@@ -388,6 +388,73 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 
+
+/* ======================
+----- ABOUT SECTION------
+=======================*/
+
+.about-section1 {
+	background-image: url(../images/about-section1.png);
+	background-size: cover;
+	width: 100%;
+	background-repeat: no-repeat;
+	padding: 10% 0;
+}
+
+.about-section1 h1 {
+	color: #000000;
+	text-transform: uppercase;	
+}
+
+.about-section1 h2 {
+	margin-top: 60px;
+	color: #fff;
+	font-size: 28px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.about-section1 p {
+	color: #fff;
+	font-size: 20px;
+	letter-spacing: 3px;
+	margin-top: 15px;
+}
+
+
+.about-section2 {
+	background-image: url(../images/about-section2.png);
+	background-size: cover;
+	width: 100%;
+	background-repeat: no-repeat;
+	padding: 10% 0;
+}
+
+.about-section2 h1 {
+	color: #000000;
+	text-transform: uppercase;	
+}
+
+.about-section2 h2 {
+	margin-top: 60px;
+	color: #fff;
+	font-size: 28px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.about-section2 p {
+	color: #fff;
+	font-size: 20px;
+	letter-spacing: 3px;
+	margin-top: 15px;
+}
+
+
+
+
 .gtco-icon {
   text-align: center;
   margin-bottom: 30px;
@@ -1027,7 +1094,6 @@ p:not(:last-child) {
     padding: 15px;
   }
 }
-
 
 
 
